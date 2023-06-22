@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.icon {
+  border-radius: 50%;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.plus-icon {
+  background: #54e05fe0;
+}
+
+.minus-icon {
+  background: #af231a;
+}
+
+.currency-dropdown {
+  background: #54e05fe0 !important;;
+  border: 0 !important;;
+  border-radius: 0 !important;;
+  padding: 0 10px !important;;
+}
+.currency-dropdown-options {
+  background: #54e05fab !important;
+  cursor: pointer;
+}
+
+.currency-dropdown-options li:hover {
+  background: #fff !important;
+}
